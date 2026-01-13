@@ -9,6 +9,18 @@ This repository contains 🌟 **solutions** to various data structure and algori
 
 ### Directory Layout
 
+<pre><code>
+📂 .
+├── 📁 dynamic-programming
+│   ├── 📁 easy
+│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/dynamic-programming/easy/509.fibonacci_number.cpp">509.fibonacci_number.cpp</a>
+├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/LICENSE">LICENSE</a>
+├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/README.md">README.md</a>
+├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/directory_layout_script.py">directory_layout_script.py</a>
+├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/problem_description_script.py">problem_description_script.py</a>
+└── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/requirements.txt">requirements.txt</a>
+</code></pre>
+
 💡 **Pro Tip**: Click the filenames to view each solution directly on GitHub!
 
 ---
