@@ -53,12 +53,10 @@ public:
             return false;
         }
 
-        if (root->left == nullptr && root->right == nullptr)
-        {
-            return root->val == targetSum;
-        }
-
         targetSum -= root->val;
+        if (root->left == nullptr && root->right == nullptr) {
+            return targetSum == 0;
+        }
 
         return hasPathSum(root->left, targetSum) || hasPathSum(root->right, targetSum);
     }
