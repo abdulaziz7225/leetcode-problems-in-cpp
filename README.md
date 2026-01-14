@@ -13,7 +13,8 @@ This repository contains 🌟 **solutions** to various data structure and algori
 📂 .
 ├── 📁 depth-first-search
 │   ├── 📁 easy
-│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/depth-first-search/easy/112.path_sum.cpp">112.path_sum.cpp</a>
+│   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/depth-first-search/easy/112.path_sum.cpp">112.path_sum.cpp</a>
+│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/depth-first-search/easy/257.binary_tree_paths.cpp">257.binary_tree_paths.cpp</a>
 │   ├── 📁 medium
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/depth-first-search/medium/113.path_sum_ii.cpp">113.path_sum_ii.cpp</a>
 ├── 📁 dynamic-programming
