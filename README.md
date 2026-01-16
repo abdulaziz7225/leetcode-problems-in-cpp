@@ -16,6 +16,8 @@ This repository contains 🌟 **solutions** to various data structure and algori
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/depth-first-search/easy/112.path_sum.cpp">112.path_sum.cpp</a>
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/depth-first-search/easy/257.binary_tree_paths.cpp">257.binary_tree_paths.cpp</a>
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/depth-first-search/easy/543.diameter_of_binary_tree.cpp">543.diameter_of_binary_tree.cpp</a>
+│   ├── 📁 hard
+│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/depth-first-search/hard/124.binary_tree_maximum_path_sum.cpp">124.binary_tree_maximum_path_sum.cpp</a>
 │   ├── 📁 medium
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/depth-first-search/medium/113.path_sum_ii.cpp">113.path_sum_ii.cpp</a>
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/depth-first-search/medium/129.sum_root_to_leaf_numbers.cpp">129.sum_root_to_leaf_numbers.cpp</a>
