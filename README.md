@@ -30,6 +30,9 @@ This repository contains 🌟 **solutions** to various data structure and algori
 ├── 📁 dynamic-programming
 │   ├── 📁 easy
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/dynamic-programming/easy/509.fibonacci_number.cpp">509.fibonacci_number.cpp</a>
+├── 📁 prefix-sum
+│   ├── 📁 easy
+│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/prefix-sum/easy/303.range_sum_query_immutable.cpp">303.range_sum_query_immutable.cpp</a>
 ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/LICENSE">LICENSE</a>
 ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/README.md">README.md</a>
 ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/directory_layout_script.py">directory_layout_script.py</a>
