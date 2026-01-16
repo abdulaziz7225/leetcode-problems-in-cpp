@@ -25,7 +25,8 @@ This repository contains 🌟 **solutions** to various data structure and algori
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/depth-first-search/medium/437.path_sum_iii.cpp">437.path_sum_iii.cpp</a>
 ├── 📁 design
 │   ├── 📁 easy
-│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/design/easy/225.implement_stack_using_queues.cpp">225.implement_stack_using_queues.cpp</a>
+│   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/design/easy/225.implement_stack_using_queues.cpp">225.implement_stack_using_queues.cpp</a>
+│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/design/easy/232.implement_queue_using_stacks.cpp">232.implement_queue_using_stacks.cpp</a>
 ├── 📁 dynamic-programming
 │   ├── 📁 easy
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/dynamic-programming/easy/509.fibonacci_number.cpp">509.fibonacci_number.cpp</a>
