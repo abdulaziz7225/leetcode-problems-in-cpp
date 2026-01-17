@@ -44,9 +44,8 @@ public:
             return head;
         }
 
-        ListNode *dummy = new ListNode(0);
-        dummy->next = head;
-        ListNode *prev = dummy;
+        ListNode* dummy = new ListNode(0, head);
+        ListNode* prev = dummy;
 
         for (int i = 0; i < left - 1; i++)
         {
