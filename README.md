@@ -33,6 +33,9 @@ This repository contains 🌟 **solutions** to various data structure and algori
 ├── 📁 prefix-sum
 │   ├── 📁 easy
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/prefix-sum/easy/303.range_sum_query_immutable.cpp">303.range_sum_query_immutable.cpp</a>
+├── 📁 stack
+│   ├── 📁 medium
+│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/stack/medium/155.min_stack.cpp">155.min_stack.cpp</a>
 ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/LICENSE">LICENSE</a>
 ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/README.md">README.md</a>
 ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/directory_layout_script.py">directory_layout_script.py</a>
