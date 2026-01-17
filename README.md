@@ -33,6 +33,8 @@ This repository contains 🌟 **solutions** to various data structure and algori
 ├── 📁 linked-list
 │   ├── 📁 easy
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/linked-list/easy/206.reverse_linked_list.cpp">206.reverse_linked_list.cpp</a>
+│   ├── 📁 medium
+│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/linked-list/medium/92.reverse_linked_list_ii.cpp">92.reverse_linked_list_ii.cpp</a>
 ├── 📁 prefix-sum
 │   ├── 📁 easy
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/prefix-sum/easy/303.range_sum_query_immutable.cpp">303.range_sum_query_immutable.cpp</a>
