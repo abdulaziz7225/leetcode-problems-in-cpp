@@ -37,6 +37,7 @@ This repository contains 🌟 **solutions** to various data structure and algori
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/linked-list/easy/206.reverse_linked_list.cpp">206.reverse_linked_list.cpp</a>
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/linked-list/easy/83.remove_duplicates_from_sorted_list.cpp">83.remove_duplicates_from_sorted_list.cpp</a>
 │   ├── 📁 medium
+│   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/linked-list/medium/82.remove_duplicates_from_sorted_list_ii.cpp">82.remove_duplicates_from_sorted_list_ii.cpp</a>
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/linked-list/medium/92.reverse_linked_list_ii.cpp">92.reverse_linked_list_ii.cpp</a>
 ├── 📁 prefix-sum
 │   ├── 📁 easy
