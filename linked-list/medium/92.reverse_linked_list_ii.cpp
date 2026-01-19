@@ -60,7 +60,10 @@ public:
             temp->next = prev->next;
             prev->next = temp;
         }
-        return dummy->next;
+
+        ListNode *result = dummy->next;
+        delete dummy;
+        return result;
     }
 };
 

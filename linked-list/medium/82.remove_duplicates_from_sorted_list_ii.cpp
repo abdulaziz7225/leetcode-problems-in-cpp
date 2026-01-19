@@ -63,6 +63,8 @@ public:
             curr = curr->next;
         }
 
-        return dummy->next;
+        ListNode *result = dummy->next;
+        delete dummy;
+        return result;
     }
 };
