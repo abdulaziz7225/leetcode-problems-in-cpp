@@ -5,7 +5,8 @@ Link: https://leetcode.com/problems/remove-duplicates-from-sorted-list
 
 ********************************************************************************
 
-Given the head of a sorted linked list, delete all duplicates such that each element appears only once. Return the linked list sorted as well.
+Given the head of a sorted linked list, delete all duplicates such that each
+element appears only once. Return the linked list sorted as well.
 
 Example 1:
 Input: head = [1,1,2]
@@ -22,8 +23,7 @@ The list is guaranteed to be sorted in ascending order.
 */
 
 // Definition for singly-linked list.
-struct ListNode
-{
+struct ListNode {
     int val;
     ListNode *next;
     ListNode() : val(0), next(nullptr) {}
@@ -31,20 +31,14 @@ struct ListNode
     ListNode(int val, ListNode *next) : val(val), next(next) {}
 };
 
-class Solution
-{
-public:
-    ListNode *deleteDuplicates(ListNode *head)
-    {
+class Solution {
+  public:
+    ListNode *deleteDuplicates(ListNode *head) {
         ListNode *curr = head;
-        while (curr && curr->next)
-        {
-            if (curr->val == curr->next->val)
-            {
+        while (curr && curr->next) {
+            if (curr->val == curr->next->val) {
                 curr->next = curr->next->next;
-            }
-            else
-            {
+            } else {
                 curr = curr->next;
             }
         }

@@ -5,14 +5,12 @@ Link: https://leetcode.com/problems/min-stack
 
 ********************************************************************************
 
-Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
-Implement the MinStack class:
-MinStack() initializes the stack object.
-void push(int val) pushes the element val onto the stack.
-void pop() removes the element on the top of the stack.
-int top() gets the top element of the stack.
-int getMin() retrieves the minimum element in the stack.
-You must implement a solution with O(1) time complexity for each function.
+Design a stack that supports push, pop, top, and retrieving the minimum element
+in constant time. Implement the MinStack class: MinStack() initializes the stack
+object. void push(int val) pushes the element val onto the stack. void pop()
+removes the element on the top of the stack. int top() gets the top element of
+the stack. int getMin() retrieves the minimum element in the stack. You must
+implement a solution with O(1) time complexity for each function.
 
 Example 1:
 Input
@@ -32,51 +30,35 @@ minStack.getMin(); // return -2
 
 Constraints:
 -2^31 <= val <= 2^31 - 1
-Methods pop, top and getMin operations will always be called on non-empty stacks.
-At most 3 * 104 calls will be made to push, pop, top, and getMin.
+Methods pop, top and getMin operations will always be called on non-empty
+stacks. At most 3 * 104 calls will be made to push, pop, top, and getMin.
 */
 
 #include <vector>
 
 using namespace std;
 
-class MinStack
-{
-private:
+class MinStack {
+  private:
     // index 0 for current value, index 1 for min value
     vector<vector<int>> stack;
 
-public:
-    MinStack() : stack()
-    {
-    }
+  public:
+    MinStack() : stack() {}
 
-    void push(int val)
-    {
-        if (!stack.empty() && stack.back().at(1) < val)
-        {
+    void push(int val) {
+        if (!stack.empty() && stack.back().at(1) < val) {
             stack.push_back({val, stack.back().at(1)});
-        }
-        else
-        {
+        } else {
             stack.push_back({val, val});
         }
     }
 
-    void pop()
-    {
-        stack.pop_back();
-    }
+    void pop() { stack.pop_back(); }
 
-    int top()
-    {
-        return stack.back().at(0);
-    }
+    int top() { return stack.back().at(0); }
 
-    int getMin()
-    {
-        return stack.back().at(1);
-    }
+    int getMin() { return stack.back().at(1); }
 };
 
 // Time Complexity:

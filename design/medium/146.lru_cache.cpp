@@ -5,12 +5,14 @@ Link: https://leetcode.com/problems/lru-cache
 
 ********************************************************************************
 
-Design a data structure that follows the constraints of a Least Recently Used (LRU) cache.
-Implement the LRUCache class:
-LRUCache(int capacity) Initialize the LRU cache with positive size capacity.
-int get(int key) Return the value of the key if the key exists, otherwise return -1.
-void put(int key, int value) Update the value of the key if the key exists. Otherwise, add the key-value pair to the cache. If the number of keys exceeds the capacity from this operation, evict the least recently used key.
-The functions get and put must each run in O(1) average time complexity.
+Design a data structure that follows the constraints of a Least Recently Used
+(LRU) cache. Implement the LRUCache class: LRUCache(int capacity) Initialize the
+LRU cache with positive size capacity. int get(int key) Return the value of the
+key if the key exists, otherwise return -1. void put(int key, int value) Update
+the value of the key if the key exists. Otherwise, add the key-value pair to the
+cache. If the number of keys exceeds the capacity from this operation, evict the
+least recently used key. The functions get and put must each run in O(1) average
+time complexity.
 
 Example 1:
 Input
@@ -41,9 +43,8 @@ At most 2 * 10^5 calls will be made to get and put.
 
 using namespace std;
 
-class Node
-{
-public:
+class Node {
+  public:
     int key;
     int val;
     Node *prev;
@@ -52,16 +53,14 @@ public:
     Node(int key, int val) : key(key), val(val), prev(nullptr), next(nullptr) {}
 };
 
-class LRUCache
-{
-private:
+class LRUCache {
+  private:
     int capacity;
     unordered_map<int, Node *> cache;
     Node *left;
     Node *right;
 
-    void remove(Node *node)
-    {
+    void remove(Node *node) {
         Node *prev = node->prev;
         Node *next = node->next;
 
@@ -69,8 +68,7 @@ private:
         next->prev = prev;
     }
 
-    void insert(Node *node)
-    {
+    void insert(Node *node) {
         Node *prev = right->prev;
         Node *next = right;
 
@@ -80,9 +78,8 @@ private:
         node->next = next;
     }
 
-public:
-    LRUCache(int capacity)
-    {
+  public:
+    LRUCache(int capacity) {
         this->capacity = capacity;
         left = new Node(0, 0);
         right = new Node(0, 0);
@@ -90,10 +87,8 @@ public:
         right->prev = left;
     }
 
-    int get(int key)
-    {
-        if (cache.count(key))
-        {
+    int get(int key) {
+        if (cache.count(key)) {
             remove(cache[key]);
             insert(cache[key]);
             return cache[key]->val;
@@ -101,18 +96,15 @@ public:
         return -1;
     }
 
-    void put(int key, int value)
-    {
-        if (cache.count(key))
-        {
+    void put(int key, int value) {
+        if (cache.count(key)) {
             remove(cache[key]);
         }
         Node *new_node = new Node(key, value);
         cache[key] = new_node;
         insert(new_node);
 
-        if (cache.size() > capacity)
-        {
+        if (cache.size() > capacity) {
             Node *lru = left->next;
             remove(lru);
             cache.erase(lru->key);

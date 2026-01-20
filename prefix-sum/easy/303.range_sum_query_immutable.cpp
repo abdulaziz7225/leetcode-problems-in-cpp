@@ -6,10 +6,11 @@ Link: https://leetcode.com/problems/range-sum-query-immutable
 ********************************************************************************
 
 Given an integer array nums, handle multiple queries of the following type:
-Calculate the sum of the elements of nums between indices left and right inclusive where left <= right.
-Implement the NumArray class:
-NumArray(int[] nums) Initializes the object with the integer array nums.
-int sumRange(int left, int right) Returns the sum of the elements of nums between indices left and right inclusive (i.e. nums[left] + nums[left + 1] + ... + nums[right]).
+Calculate the sum of the elements of nums between indices left and right
+inclusive where left <= right. Implement the NumArray class: NumArray(int[]
+nums) Initializes the object with the integer array nums. int sumRange(int left,
+int right) Returns the sum of the elements of nums between indices left and
+right inclusive (i.e. nums[left] + nums[left + 1] + ... + nums[right]).
 
 Example 1:
 Input
@@ -34,22 +35,18 @@ At most 104 calls will be made to sumRange.
 
 using namespace std;
 
-class NumArray
-{
-private:
+class NumArray {
+  private:
     vector<int> cumSum;
 
-public:
-    NumArray(vector<int> &nums) : cumSum(nums.size() + 1)
-    {
-        for (int i = 0; i < nums.size(); i++)
-        {
+  public:
+    NumArray(vector<int> &nums) : cumSum(nums.size() + 1) {
+        for (int i = 0; i < nums.size(); i++) {
             cumSum.at(i + 1) = cumSum.at(i) + nums.at(i);
         }
     }
 
-    int sumRange(int left, int right)
-    {
+    int sumRange(int left, int right) {
         return cumSum.at(right + 1) - cumSum.at(left);
     }
 };

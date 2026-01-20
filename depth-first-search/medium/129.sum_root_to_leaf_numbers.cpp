@@ -8,8 +8,9 @@ Link: https://leetcode.com/problems/sum-root-to-leaf-numbers/
 You are given the root of a binary tree containing digits from 0 to 9 only.
 Each root-to-leaf path in the tree represents a number.
 For example, the root-to-leaf path 1 -> 2 -> 3 represents the number 123.
-Return the total sum of all root-to-leaf numbers. Test cases are generated so that the answer will fit in a 32-bit integer.
-A leaf node is a node with no children.
+Return the total sum of all root-to-leaf numbers. Test cases are generated so
+that the answer will fit in a 32-bit integer. A leaf node is a node with no
+children.
 
 Example 1:
 Input: root = [1,2,3]
@@ -39,44 +40,37 @@ The depth of the tree will not exceed 10.
 using namespace std;
 
 // Definition for a binary tree node.
-struct TreeNode
-{
+struct TreeNode {
     int val;
     TreeNode *left;
     TreeNode *right;
     TreeNode() : val(0), left(nullptr), right(nullptr) {}
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+    TreeNode(int x, TreeNode *left, TreeNode *right)
+        : val(x), left(left), right(right) {}
 };
 
 // Solution 1
-class Solution
-{
-public:
-    int sumNumbers(TreeNode *root)
-    {
+class Solution {
+  public:
+    int sumNumbers(TreeNode *root) {
         int result = 0;
         vector<int> path;
         dfs(root, path, result);
         return result;
     }
 
-private:
-    void dfs(TreeNode *root, vector<int> &path, int &result)
-    {
-        if (root == nullptr)
-        {
+  private:
+    void dfs(TreeNode *root, vector<int> &path, int &result) {
+        if (root == nullptr) {
             return;
         }
 
         path.push_back(root->val);
 
-        if (root->left == nullptr && root->right == nullptr)
-        {
+        if (root->left == nullptr && root->right == nullptr) {
             result += buildNumber(path);
-        }
-        else
-        {
+        } else {
             dfs(root->left, path, result);
             dfs(root->right, path, result);
         }
@@ -84,12 +78,10 @@ private:
         path.pop_back();
     }
 
-    int buildNumber(const vector<int> &path)
-    {
+    int buildNumber(const vector<int> &path) {
         int number = 0;
 
-        for (size_t i = 0; i < path.size(); i++)
-        {
+        for (size_t i = 0; i < path.size(); i++) {
             number = 10 * number + path.at(i);
         }
         return number;
@@ -100,25 +92,18 @@ private:
 // Space Complexity: O(n^2)
 
 // Solution 2: Optimized Approach
-class Solution
-{
-public:
-    int sumNumbers(TreeNode *root)
-    {
-        return dfs(root, 0);
-    }
+class Solution {
+  public:
+    int sumNumbers(TreeNode *root) { return dfs(root, 0); }
 
-private:
-    int dfs(TreeNode *root, int currSum)
-    {
-        if (root == nullptr)
-        {
+  private:
+    int dfs(TreeNode *root, int currSum) {
+        if (root == nullptr) {
             return 0;
         }
 
         currSum = 10 * currSum + root->val;
-        if (root->left == nullptr && root->right == nullptr)
-        {
+        if (root->left == nullptr && root->right == nullptr) {
             return currSum;
         }
 

@@ -21,49 +21,42 @@ The number of nodes in the tree is in the range [1, 100].
 -100 <= Node.val <= 100
 */
 
-#include <vector>
 #include <string>
+#include <vector>
 
 using namespace std;
 
 // Definition for a binary tree node.
-struct TreeNode
-{
+struct TreeNode {
     int val;
     TreeNode *left;
     TreeNode *right;
     TreeNode() : val(0), left(nullptr), right(nullptr) {}
     TreeNode(int x) : val(x), left(nullptr), right(nullptr) {}
-    TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
+    TreeNode(int x, TreeNode *left, TreeNode *right)
+        : val(x), left(left), right(right) {}
 };
 
-class Solution
-{
-public:
-    vector<string> binaryTreePaths(TreeNode *root)
-    {
+class Solution {
+  public:
+    vector<string> binaryTreePaths(TreeNode *root) {
         vector<string> allPaths;
         vector<int> path;
         dfs(root, path, allPaths);
         return allPaths;
     }
 
-private:
-    void dfs(TreeNode *root, vector<int> &path, vector<string> &allPaths)
-    {
-        if (root == nullptr)
-        {
+  private:
+    void dfs(TreeNode *root, vector<int> &path, vector<string> &allPaths) {
+        if (root == nullptr) {
             return;
         }
 
         path.push_back(root->val);
 
-        if (root->left == nullptr && root->right == nullptr)
-        {
+        if (root->left == nullptr && root->right == nullptr) {
             allPaths.push_back(build(path));
-        }
-        else
-        {
+        } else {
             dfs(root->left, path, allPaths);
             dfs(root->right, path, allPaths);
         }
@@ -71,11 +64,9 @@ private:
         path.pop_back();
     }
 
-    string build(const vector<int> &path)
-    {
+    string build(const vector<int> &path) {
         string s;
-        for (size_t i = 0; i < path.size(); i++)
-        {
+        for (size_t i = 0; i < path.size(); i++) {
             if (i > 0)
                 s += "->";
             s += to_string(path.at(i));

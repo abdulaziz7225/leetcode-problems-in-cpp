@@ -5,7 +5,9 @@ Link: https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
 
 ********************************************************************************
 
-Given the head of a sorted linked list, delete all nodes that have duplicate numbers, leaving only distinct numbers from the original list. Return the linked list sorted as well.
+Given the head of a sorted linked list, delete all nodes that have duplicate
+numbers, leaving only distinct numbers from the original list. Return the linked
+list sorted as well.
 
 Example 1:
 Input: head = [1,2,3,3,4,4,5]
@@ -22,8 +24,7 @@ The list is guaranteed to be sorted in ascending order.
 */
 
 // Definition for singly-linked list.
-struct ListNode
-{
+struct ListNode {
     int val;
     ListNode *next;
     ListNode() : val(0), next(nullptr) {}
@@ -31,13 +32,10 @@ struct ListNode
     ListNode(int val, ListNode *next) : val(val), next(next) {}
 };
 
-class Solution
-{
-public:
-    ListNode *deleteDuplicates(ListNode *head)
-    {
-        if (head == nullptr)
-        {
+class Solution {
+  public:
+    ListNode *deleteDuplicates(ListNode *head) {
+        if (head == nullptr) {
             return head;
         }
 
@@ -45,19 +43,14 @@ public:
         ListNode *prev = dummy;
         ListNode *curr = head;
 
-        while (curr != nullptr)
-        {
-            while (curr->next != nullptr && curr->val == curr->next->val)
-            {
+        while (curr != nullptr) {
+            while (curr->next != nullptr && curr->val == curr->next->val) {
                 curr = curr->next;
             }
 
-            if (prev->next == curr)
-            {
+            if (prev->next == curr) {
                 prev = curr;
-            }
-            else
-            {
+            } else {
                 prev->next = curr->next;
             }
             curr = curr->next;

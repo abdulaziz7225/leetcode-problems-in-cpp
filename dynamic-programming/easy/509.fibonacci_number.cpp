@@ -5,10 +5,10 @@ Link: https://leetcode.com/problems/fibonacci-number
 
 ********************************************************************************
 
-The Fibonacci numbers, commonly denoted F(n) form a sequence, called the Fibonacci sequence, such that each number is the sum of the two preceding ones, starting from 0 and 1. That is,
-F(0) = 0, F(1) = 1
-F(n) = F(n - 1) + F(n - 2), for n > 1.
-Given n, calculate F(n).
+The Fibonacci numbers, commonly denoted F(n) form a sequence, called the
+Fibonacci sequence, such that each number is the sum of the two preceding ones,
+starting from 0 and 1. That is, F(0) = 0, F(1) = 1 F(n) = F(n - 1) + F(n - 2),
+for n > 1. Given n, calculate F(n).
 
 Example 1:
 Input: n = 2
@@ -35,13 +35,10 @@ Constraints:
 using namespace std;
 
 // Solution 1: Tabulation approach with storing
-class Solution
-{
-public:
-    int fib(int n)
-    {
-        if (n <= 1)
-        {
+class Solution {
+  public:
+    int fib(int n) {
+        if (n <= 1) {
             return n;
         }
 
@@ -49,8 +46,7 @@ public:
         fibSeq.at(0) = 0;
         fibSeq.at(1) = 1;
 
-        for (int i = 2; i <= n; i++)
-        {
+        for (int i = 2; i <= n; i++) {
             fibSeq.at(i) = fibSeq.at(i - 1) + fibSeq.at(i - 2);
         }
 
@@ -61,21 +57,17 @@ public:
 // Space Complexity: O(n)
 
 // Solution 2: Tabulation approach without storing
-class Solution
-{
-public:
-    int fib(int n)
-    {
-        if (n <= 1)
-        {
+class Solution {
+  public:
+    int fib(int n) {
+        if (n <= 1) {
             return n;
         }
 
         int prev = 0;
         int curr = 1;
 
-        for (int i = 2; i <= n; i++)
-        {
+        for (int i = 2; i <= n; i++) {
             int temp = prev;
             prev = curr;
             curr = temp + curr;
@@ -88,13 +80,10 @@ public:
 // Space Complexity: O(1)
 
 // Solution 3: Memoization(Top-Down) approach
-class Solution
-{
-public:
-    int fib(int n)
-    {
-        if (n < 2)
-        {
+class Solution {
+  public:
+    int fib(int n) {
+        if (n < 2) {
             return n;
         }
 
@@ -105,11 +94,9 @@ public:
         return helper(n, dp);
     }
 
-private:
-    int helper(int n, vector<int> &dp)
-    {
-        if (dp.at(n) != -1)
-        {
+  private:
+    int helper(int n, vector<int> &dp) {
+        if (dp.at(n) != -1) {
             return dp.at(n);
         }
         dp.at(n) = helper(n - 1, dp) + helper(n - 2, dp);

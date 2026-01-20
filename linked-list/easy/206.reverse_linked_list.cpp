@@ -5,7 +5,8 @@ Link: https://leetcode.com/problems/reverse-linked-list
 
 ********************************************************************************
 
-Given the head of a singly linked list, reverse the list, and return the reversed list.
+Given the head of a singly linked list, reverse the list, and return the
+reversed list.
 
 Example 1:
 Input: head = [1,2,3,4,5]
@@ -23,12 +24,12 @@ Constraints:
 The number of nodes in the list is the range [0, 5000].
 -5000 <= Node.val <= 5000
 
-Follow up: A linked list can be reversed either iteratively or recursively. Could you implement both?
+Follow up: A linked list can be reversed either iteratively or recursively.
+Could you implement both?
 */
 
 // Definition for singly-linked list.
-struct ListNode
-{
+struct ListNode {
     int val;
     ListNode *next;
     ListNode() : val(0), next(nullptr) {}
@@ -36,16 +37,13 @@ struct ListNode
     ListNode(int x, ListNode *next) : val(x), next(next) {}
 };
 
-class Solution
-{
-public:
-    ListNode *reverseList(ListNode *head)
-    {
+class Solution {
+  public:
+    ListNode *reverseList(ListNode *head) {
         ListNode *prev = nullptr;
         ListNode *curr = head;
 
-        while (curr != nullptr)
-        {
+        while (curr != nullptr) {
             ListNode *temp = curr->next;
             curr->next = prev;
             prev = curr;
