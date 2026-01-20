@@ -75,3 +75,7 @@ public:
         return result;
     }
 };
+
+// n = len(list1), m = len(list2)
+// Time Complexity: O(n + m)
+// Space Complexity: O(1)
