@@ -47,6 +47,9 @@ This repository contains 🌟 **solutions** to various data structure and algori
 ├── 📁 stack
 │   ├── 📁 medium
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/stack/medium/155.min_stack.cpp">155.min_stack.cpp</a>
+├── 📁 union-find
+│   ├── 📁 medium
+│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/union-find/medium/200.number_of_islands.cpp">200.number_of_islands.cpp</a>
 ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/LICENSE">LICENSE</a>
 ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/README.md">README.md</a>
 ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/directory_layout_script.py">directory_layout_script.py</a>
