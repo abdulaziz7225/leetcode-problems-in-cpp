@@ -41,16 +41,18 @@ This repository contains 🌟 **solutions** to various data structure and algori
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/linked-list/medium/24.swap_nodes_in_pairs.cpp">24.swap_nodes_in_pairs.cpp</a>
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/linked-list/medium/82.remove_duplicates_from_sorted_list_ii.cpp">82.remove_duplicates_from_sorted_list_ii.cpp</a>
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/linked-list/medium/92.reverse_linked_list_ii.cpp">92.reverse_linked_list_ii.cpp</a>
+├── 📁 matrix
+│   ├── 📁 easy
+│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/matrix/easy/733.flood_fill.cpp">733.flood_fill.cpp</a>
+│   ├── 📁 medium
+│   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/matrix/medium/200.number_of_islands.cpp">200.number_of_islands.cpp</a>
+│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/matrix/medium/695.max_area_of_island.cpp">695.max_area_of_island.cpp</a>
 ├── 📁 prefix-sum
 │   ├── 📁 easy
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/prefix-sum/easy/303.range_sum_query_immutable.cpp">303.range_sum_query_immutable.cpp</a>
 ├── 📁 stack
 │   ├── 📁 medium
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/stack/medium/155.min_stack.cpp">155.min_stack.cpp</a>
-├── 📁 union-find
-│   ├── 📁 medium
-│   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/union-find/medium/200.number_of_islands.cpp">200.number_of_islands.cpp</a>
-│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/union-find/medium/695.max_area_of_island.cpp">695.max_area_of_island.cpp</a>
 ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/LICENSE">LICENSE</a>
 ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/README.md">README.md</a>
 ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/directory_layout_script.py">directory_layout_script.py</a>
