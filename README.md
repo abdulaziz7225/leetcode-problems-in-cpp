@@ -50,6 +50,7 @@ This repository contains 🌟 **solutions** to various data structure and algori
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/matrix/easy/733.flood_fill.cpp">733.flood_fill.cpp</a>
 │   ├── 📁 medium
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/matrix/medium/1254.number_of_closed_islands.cpp">1254.number_of_closed_islands.cpp</a>
+│   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/matrix/medium/1559.detect_cycles_in_2d_grid.cpp">1559.detect_cycles_in_2d_grid.cpp</a>
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/matrix/medium/200.number_of_islands.cpp">200.number_of_islands.cpp</a>
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/matrix/medium/694.number_of_distinct_islands.cpp">694.number_of_distinct_islands.cpp</a>
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/matrix/medium/695.max_area_of_island.cpp">695.max_area_of_island.cpp</a>
