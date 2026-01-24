@@ -51,6 +51,7 @@ This repository contains 🌟 **solutions** to various data structure and algori
 │   ├── 📁 medium
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/matrix/medium/1254.number_of_closed_islands.cpp">1254.number_of_closed_islands.cpp</a>
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/matrix/medium/200.number_of_islands.cpp">200.number_of_islands.cpp</a>
+│   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/matrix/medium/694.number_of_distinct_islands.cpp">694.number_of_distinct_islands.cpp</a>
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/matrix/medium/695.max_area_of_island.cpp">695.max_area_of_island.cpp</a>
 ├── 📁 prefix-sum
 │   ├── 📁 easy
