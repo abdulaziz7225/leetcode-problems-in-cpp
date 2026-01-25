@@ -11,6 +11,9 @@ This repository contains 🌟 **solutions** to various data structure and algori
 
 <pre><code>
 📂 .
+├── 📁 backtracking
+│   ├── 📁 medium
+│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/backtracking/medium/78.subsets.cpp">78.subsets.cpp</a>
 ├── 📁 depth-first-search
 │   ├── 📁 easy
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/depth-first-search/easy/112.path_sum.cpp">112.path_sum.cpp</a>
