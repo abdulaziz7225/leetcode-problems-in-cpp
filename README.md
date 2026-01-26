@@ -35,6 +35,9 @@ This repository contains 🌟 **solutions** to various data structure and algori
 ├── 📁 dynamic-programming
 │   ├── 📁 easy
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/dynamic-programming/easy/509.fibonacci_number.cpp">509.fibonacci_number.cpp</a>
+├── 📁 graph
+│   ├── 📁 easy
+│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/graph/easy/1971.find_if_path_exists_in_graph.cpp">1971.find_if_path_exists_in_graph.cpp</a>
 ├── 📁 heap-priority-queue
 │   ├── 📁 hard
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/heap-priority-queue/hard/295.find_median_from_data_stream.cpp">295.find_median_from_data_stream.cpp</a>
