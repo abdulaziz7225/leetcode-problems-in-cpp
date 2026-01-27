@@ -40,7 +40,8 @@ This repository contains 🌟 **solutions** to various data structure and algori
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/graph/easy/1971.find_if_path_exists_in_graph.cpp">1971.find_if_path_exists_in_graph.cpp</a>
 │   ├── 📁 medium
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/graph/medium/1557.minimum_number_of_vertices_to_reach_all_nodes.cpp">1557.minimum_number_of_vertices_to_reach_all_nodes.cpp</a>
-│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/graph/medium/547.number_of_provinces.cpp">547.number_of_provinces.cpp</a>
+│   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/graph/medium/547.number_of_provinces.cpp">547.number_of_provinces.cpp</a>
+│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/graph/medium/802.find_eventual_safe_states.cpp">802.find_eventual_safe_states.cpp</a>
 ├── 📁 heap-priority-queue
 │   ├── 📁 hard
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/heap-priority-queue/hard/295.find_median_from_data_stream.cpp">295.find_median_from_data_stream.cpp</a>
