@@ -47,6 +47,8 @@ This repository contains 🌟 **solutions** to various data structure and algori
 ├── 📁 heap-priority-queue
 │   ├── 📁 hard
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/heap-priority-queue/hard/295.find_median_from_data_stream.cpp">295.find_median_from_data_stream.cpp</a>
+│   ├── 📁 medium
+│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/heap-priority-queue/medium/436.find_right_interval.cpp">436.find_right_interval.cpp</a>
 ├── 📁 linked-list
 │   ├── 📁 easy
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/linked-list/easy/206.reverse_linked_list.cpp">206.reverse_linked_list.cpp</a>
