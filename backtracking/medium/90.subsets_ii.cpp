@@ -62,7 +62,7 @@ class Solution {
 };
 
 // Time Complexity: O(n * 2^n)
-// Space Complexity: O(n * 2^n + n) ==> O(n * 2^n)
+// Space Complexity: O(n * 2^n)
 
 // Solution 2
 class Solution {
@@ -93,4 +93,4 @@ class Solution {
 };
 
 // Time Complexity: O(n * 2^n)
-// Space Complexity: O(n * 2^n + n) ==> O(n * 2^n)
+// Space Complexity: O(n * 2^n)
