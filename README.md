@@ -15,6 +15,7 @@ This repository contains 🌟 **solutions** to various data structure and algori
 │   ├── 📁 medium
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/backtracking/medium/22.generate_parentheses.cpp">22.generate_parentheses.cpp</a>
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/backtracking/medium/46.permutations.cpp">46.permutations.cpp</a>
+│   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/backtracking/medium/47.permutations_ii.cpp">47.permutations_ii.cpp</a>
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/backtracking/medium/78.subsets.cpp">78.subsets.cpp</a>
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/backtracking/medium/784.letter_case_permutation.cpp">784.letter_case_permutation.cpp</a>
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/backtracking/medium/90.subsets_ii.cpp">90.subsets_ii.cpp</a>
