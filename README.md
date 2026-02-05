@@ -18,7 +18,8 @@ This repository contains 🌟 **solutions** to various data structure and algori
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/backtracking/medium/47.permutations_ii.cpp">47.permutations_ii.cpp</a>
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/backtracking/medium/78.subsets.cpp">78.subsets.cpp</a>
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/backtracking/medium/784.letter_case_permutation.cpp">784.letter_case_permutation.cpp</a>
-│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/backtracking/medium/90.subsets_ii.cpp">90.subsets_ii.cpp</a>
+│   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/backtracking/medium/90.subsets_ii.cpp">90.subsets_ii.cpp</a>
+│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/backtracking/medium/95.unique_binary_search_trees_ii.cpp">95.unique_binary_search_trees_ii.cpp</a>
 ├── 📁 depth-first-search
 │   ├── 📁 easy
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/depth-first-search/easy/112.path_sum.cpp">112.path_sum.cpp</a>
