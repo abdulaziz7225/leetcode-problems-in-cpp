@@ -20,6 +20,10 @@ This repository contains 🌟 **solutions** to various data structure and algori
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/backtracking/medium/784.letter_case_permutation.cpp">784.letter_case_permutation.cpp</a>
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/backtracking/medium/90.subsets_ii.cpp">90.subsets_ii.cpp</a>
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/backtracking/medium/95.unique_binary_search_trees_ii.cpp">95.unique_binary_search_trees_ii.cpp</a>
+├── 📁 binary-search
+│   ├── 📁 easy
+│   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/binary-search/easy/35.search_insert_position.cpp">35.search_insert_position.cpp</a>
+│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/binary-search/easy/744.find_smallest_letter_greater_than_target.cpp">744.find_smallest_letter_greater_than_target.cpp</a>
 ├── 📁 depth-first-search
 │   ├── 📁 easy
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/depth-first-search/easy/112.path_sum.cpp">112.path_sum.cpp</a>
