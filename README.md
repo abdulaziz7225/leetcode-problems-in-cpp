@@ -25,7 +25,8 @@ This repository contains 🌟 **solutions** to various data structure and algori
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/binary-search/easy/35.search_insert_position.cpp">35.search_insert_position.cpp</a>
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/binary-search/easy/744.find_smallest_letter_greater_than_target.cpp">744.find_smallest_letter_greater_than_target.cpp</a>
 │   ├── 📁 medium
-│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/binary-search/medium/34.find_first_and_last_position_of_element_in_sorted_array.cpp">34.find_first_and_last_position_of_element_in_sorted_array.cpp</a>
+│   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/binary-search/medium/34.find_first_and_last_position_of_element_in_sorted_array.cpp">34.find_first_and_last_position_of_element_in_sorted_array.cpp</a>
+│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/binary-search/medium/702.search_in_a_sorted_array_of_unknown_size.cpp">702.search_in_a_sorted_array_of_unknown_size.cpp</a>
 ├── 📁 depth-first-search
 │   ├── 📁 easy
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/depth-first-search/easy/112.path_sum.cpp">112.path_sum.cpp</a>
