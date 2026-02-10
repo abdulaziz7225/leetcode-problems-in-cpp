@@ -49,7 +49,8 @@ This repository contains 🌟 **solutions** to various data structure and algori
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/design/easy/225.implement_stack_using_queues.cpp">225.implement_stack_using_queues.cpp</a>
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/design/easy/232.implement_queue_using_stacks.cpp">232.implement_queue_using_stacks.cpp</a>
 │   ├── 📁 medium
-│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/design/medium/146.lru_cache.cpp">146.lru_cache.cpp</a>
+│   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/design/medium/146.lru_cache.cpp">146.lru_cache.cpp</a>
+│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/design/medium/2502.design_memory_allocator.cpp">2502.design_memory_allocator.cpp</a>
 ├── 📁 dynamic-programming
 │   ├── 📁 easy
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/dynamic-programming/easy/509.fibonacci_number.cpp">509.fibonacci_number.cpp</a>
