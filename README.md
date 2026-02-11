@@ -36,6 +36,7 @@ This repository contains 🌟 **solutions** to various data structure and algori
 │   ├── 📁 easy
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/bit-manipulation/easy/136.single_number.cpp">136.single_number.cpp</a>
 │   ├── 📁 medium
+│   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/bit-manipulation/medium/137.single_number_ii.cpp">137.single_number_ii.cpp</a>
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/bit-manipulation/medium/260.single_number_iii.cpp">260.single_number_iii.cpp</a>
 ├── 📁 depth-first-search
 │   ├── 📁 easy
