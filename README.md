@@ -36,7 +36,8 @@ This repository contains 🌟 **solutions** to various data structure and algori
 │   ├── 📁 easy
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/bit-manipulation/easy/1009.complement_of_base_10_integer.cpp">1009.complement_of_base_10_integer.cpp</a>
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/bit-manipulation/easy/136.single_number.cpp">136.single_number.cpp</a>
-│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/bit-manipulation/easy/476.number_complement.cpp">476.number_complement.cpp</a>
+│   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/bit-manipulation/easy/476.number_complement.cpp">476.number_complement.cpp</a>
+│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/bit-manipulation/easy/832.flipping_an_image.cpp">832.flipping_an_image.cpp</a>
 │   ├── 📁 medium
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/bit-manipulation/medium/137.single_number_ii.cpp">137.single_number_ii.cpp</a>
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/bit-manipulation/medium/260.single_number_iii.cpp">260.single_number_iii.cpp</a>
@@ -133,5 +134,5 @@ Each solution file contains:
 
 1. **Problem Description**: A detailed explanation of the problem, its constraints, and examples.
 2. **Test Cases**: Example inputs and expected outputs.
-3. **Python Implementation**: The function or class implementing the solution.
+3. **C++ Implementation**: The function or class implementing the solution.
 4. **Time and Space Complexity Analysis**: A brief analysis of the efficiency of the solution.
