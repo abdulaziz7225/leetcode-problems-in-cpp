@@ -80,6 +80,7 @@ This repository contains 🌟 **solutions** to various data structure and algori
 │   ├── 📁 medium
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/heap-priority-queue/medium/1167.minimum_cost_to_connect_sticks.cpp">1167.minimum_cost_to_connect_sticks.cpp</a>
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/heap-priority-queue/medium/215.kth_largest_element_in_an_array.cpp">215.kth_largest_element_in_an_array.cpp</a>
+│   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/heap-priority-queue/medium/347.top_k_frequent_elements.cpp">347.top_k_frequent_elements.cpp</a>
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/heap-priority-queue/medium/436.find_right_interval.cpp">436.find_right_interval.cpp</a>
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/heap-priority-queue/medium/973.k_closest_points_to_origin.cpp">973.k_closest_points_to_origin.cpp</a>
 ├── 📁 linked-list
