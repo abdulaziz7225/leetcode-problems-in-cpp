@@ -64,6 +64,7 @@ This repository contains 🌟 **solutions** to various data structure and algori
 │   ├── 📁 easy
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/dynamic-programming/easy/509.fibonacci_number.cpp">509.fibonacci_number.cpp</a>
 │   ├── 📁 medium
+│   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/dynamic-programming/medium/241.different_ways_to_add_parentheses.cpp">241.different_ways_to_add_parentheses.cpp</a>
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/dynamic-programming/medium/96.unique_binary_search_trees.cpp">96.unique_binary_search_trees.cpp</a>
 ├── 📁 graph
 │   ├── 📁 easy
