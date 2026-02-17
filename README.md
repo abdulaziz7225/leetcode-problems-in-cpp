@@ -83,6 +83,7 @@ This repository contains 🌟 **solutions** to various data structure and algori
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/heap-priority-queue/hard/295.find_median_from_data_stream.cpp">295.find_median_from_data_stream.cpp</a>
 │   ├── 📁 medium
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/heap-priority-queue/medium/1167.minimum_cost_to_connect_sticks.cpp">1167.minimum_cost_to_connect_sticks.cpp</a>
+│   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/heap-priority-queue/medium/1481.least_number_of_unique_integers_after_k_removals.cpp">1481.least_number_of_unique_integers_after_k_removals.cpp</a>
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/heap-priority-queue/medium/215.kth_largest_element_in_an_array.cpp">215.kth_largest_element_in_an_array.cpp</a>
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/heap-priority-queue/medium/347.top_k_frequent_elements.cpp">347.top_k_frequent_elements.cpp</a>
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/heap-priority-queue/medium/436.find_right_interval.cpp">436.find_right_interval.cpp</a>
