@@ -90,6 +90,7 @@ This repository contains 🌟 **solutions** to various data structure and algori
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/heap-priority-queue/medium/1481.least_number_of_unique_integers_after_k_removals.cpp">1481.least_number_of_unique_integers_after_k_removals.cpp</a>
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/heap-priority-queue/medium/215.kth_largest_element_in_an_array.cpp">215.kth_largest_element_in_an_array.cpp</a>
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/heap-priority-queue/medium/347.top_k_frequent_elements.cpp">347.top_k_frequent_elements.cpp</a>
+│   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/heap-priority-queue/medium/378.kth_smallest_element_in_a_sorted_matrix.cpp">378.kth_smallest_element_in_a_sorted_matrix.cpp</a>
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/heap-priority-queue/medium/436.find_right_interval.cpp">436.find_right_interval.cpp</a>
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/heap-priority-queue/medium/451.sort_characters_by_frequency.cpp">451.sort_characters_by_frequency.cpp</a>
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/heap-priority-queue/medium/621.task_scheduler.cpp">621.task_scheduler.cpp</a>
