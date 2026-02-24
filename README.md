@@ -25,7 +25,8 @@ This repository contains 🌟 **solutions** to various data structure and algori
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/binary-search/easy/35.search_insert_position.cpp">35.search_insert_position.cpp</a>
 │   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/binary-search/easy/744.find_smallest_letter_greater_than_target.cpp">744.find_smallest_letter_greater_than_target.cpp</a>
 │   ├── 📁 hard
-│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/binary-search/hard/154.find_minimum_in_rotated_sorted_array_ii.cpp">154.find_minimum_in_rotated_sorted_array_ii.cpp</a>
+│   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/binary-search/hard/154.find_minimum_in_rotated_sorted_array_ii.cpp">154.find_minimum_in_rotated_sorted_array_ii.cpp</a>
+│   │   └── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/binary-search/hard/4.median_of_two_sorted_arrays.cpp">4.median_of_two_sorted_arrays.cpp</a>
 │   ├── 📁 medium
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/binary-search/medium/153.find_minimum_in_rotated_sorted_array.cpp">153.find_minimum_in_rotated_sorted_array.cpp</a>
 │   │   ├── <a href="https://github.com/abdulaziz7225/leetcode-problems-in-cpp/blob/main/binary-search/medium/240.search_a_2d_matrix_ii.cpp">240.search_a_2d_matrix_ii.cpp</a>
